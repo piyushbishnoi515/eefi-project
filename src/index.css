@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "neuelight";
+    src: url(./assets/font/NeueMachina-Light.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "neueregular";
+    src: url(./assets/font/NeueMachina-Regular.ttf);
+}
+
+@font-face {
+    font-family: "neueultrabold";
+    src: url(./assets/font/NeueMachina-Ultrabold.ttf);
+}
+
+.light {
+    font-family: "neuelight", sans-serif;
+}
+
+.regular {
+    font-family: "neueregular", sans-serif;
+}
+
+.ultrabold {
+    font-family: "neueultrabold", sans-serif;
 }
