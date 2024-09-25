@@ -24,12 +24,12 @@ module.exports = {
         'lite-blue': "#1643C3",
         'dark-blue': "#002F93",
         'blue2': "#4273FF",
-        'lite-blue': "#1643C31A",
+        'lite-blue-2': "#1643C31A",
 
       },
       backgroundImage: {
-        'roadmap-layer': "url('./assets/image/webp/roadlayer.webp')",
-        'game-layer': "url('./assets/image/webp/game-sec-layer.webp')",
+        'roadmap-layer': "url('./assets/image/webp/roadmap-bg.webp')",
+        'game-layer': "url('./assets/image/webp/game-bg.webp')",
         'amplify-bg': "url('./assets/image/webp/amplify-bg.webp')",
       },
       fontFamily: {

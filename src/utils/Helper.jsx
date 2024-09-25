@@ -1,12 +1,12 @@
-export const NAV_ITEMS_DATA = [
-    { text: "About", url: "#hero", },
-    { text: "IBO Event", url: "#hero", },
-    { text: "EEFI Tokenomics", url: "#hero", },
-    { text: "Team", url: "#blog", },
+export const NAV_DATA = [
+    { text: "About", url: "#about", },
+    { text: "IBO Event", url: "#event", },
+    { text: "EEFI Tokenomics", url: "#eefi", },
+    { text: "Team", url: "#team", },
     { text: "Partners", url: "#team", },
-    { text: "Roadmap", url: "#product", },
+    { text: "Roadmap", url: "#roadmap", },
 ];
-export const ROADMAP_DATA = [
+export const ROADMAP_ITEMS = [
     {
         number: "2022", text: "Ideation of Elastic Protocol", items: [
             { title: "Elastic Protocol GitBook", text: "Full Code development of Elastic Vault Strategy", data: "Audit" },
@@ -52,7 +52,7 @@ export const ROADMAP_DATA = [
         number: "Q2 2025", text: "Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic Finance DAO, its treasury, its yield strategies and community governance"
     },
 ]
-export const GAME_DATA = [
+export const GAME_ITEMS = [
     {
         items: [
             { icon: "bondIcon", title: "EEFI Bonds", text: " Purchase. Lock up. Get Discount" },

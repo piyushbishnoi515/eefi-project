@@ -21,17 +21,17 @@
 }
 
 .plus {
-  font-family: "plus", sans-serif;
+  font-family: "plus Jakarta ", sans-serif;
 }
 
-.light {
-  font-family: "neuelight", sans-serif;
+.font-machice_normal {
+  font-family: "NeueMachina-Light", sans-serif;
 }
 
-.regular {
-  font-family: "neueregular", sans-serif;
+.font-machice_regular {
+  font-family: "NeueMachina-Regular", sans-serif;
 }
 
-.ultrabold {
-  font-family: "neueultrabold", sans-serif;
+.machice_bold {
+  font-family: "NeueMachina-Ultrabold", sans-serif;
 }

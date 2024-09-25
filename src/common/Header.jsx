@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { DROPDOWN_DATA, NAV_ITEMS_DATA } from '../utils/Helper';
+import { DROPDOWN_DATA, NAV_DATA } from '../utils/Helper';
 import mainlogo from '../assets/image/webp/logo.webp';
 import Icons from '../common/Icons';
 
@@ -49,23 +49,23 @@ const Header = () => {
               className={`flex flex-col lg:flex-row items-center gap-7 lg:gap-6 max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full max-lg:bg-dark-blue max-lg:z-[90] max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
                 }`}
             >
-              {NAV_ITEMS_DATA.map((items, index) => (
-                <a key={index} href={`/${items.url}`} onClick={(e) => handleClick(e, items.url.substring(1))} className='font-medium lg:text-base text-lg leading-5 text-white duration-300 ease-linear  '>{items.text}</a>
+              {NAV_DATA.map((items, index) => (
+                <a key={index} href={`/${items.url}`} onClick={(e) => handleClick(e, items.url.substring(1))} className='font-machice_regular lg:text-base text-lg leading-5 text-white duration-300 hover:underline ease-linear  '>{items.text}</a>
               ))}
               <div className="relative">
                 <button
                   onClick={toggleDropdown}
-                  className="font-medium lg:text-base text-lg leading-5 text-white flex items-center space-x-1">
+                  className="font-machice_regular lg:text-base text-lg leading-5 text-white flex items-center space-x-1">
                   <span>More</span>
                   <Icons iconName="downIcon" isDropdownOpen={isDropdownOpen} />
                 </button>
 
               </div>
-              <button className='sm:p-[13px_32px] p-[12px_24px] lg:hidden border lg:text-lite-blue text-white lg:border-lite-blue border-white rounded-lg font-medium text-base leading-4 hover:bg-lite-blue hover:text-white   '>
+              <button className='sm:p-[13px_32px] p-[12px_24px] lg:hidden border lg:text-lite-blue text-white lg:border-lite-blue border-white rounded-lg font-machice_regular text-base leading-4 hover:bg-lite-blue hover:text-white   '>
                 <span className="relative z-20">Enter App</span>
               </button>
             </div>
-            <button className='sm:p-[13px_32px] p-[12px_24px] hidden lg:block border lg:text-lite-blue text-white lg:border-lite-blue border-white rounded-lg font-medium text-base leading-4 hover:bg-lite-blue hover:text-white '>
+            <button className='sm:p-[13px_32px] p-[12px_24px] hidden lg:block border lg:text-lite-blue text-white lg:border-lite-blue border-white rounded-lg font-machice_regular text-base leading-4 hover:bg-lite-blue hover:text-white '>
               <span className="relative z-20">Enter App</span>
             </button>
             <button
